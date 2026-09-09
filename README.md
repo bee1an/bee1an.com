@@ -18,6 +18,11 @@ pnpm typecheck
 pnpm test
 ```
 
+## Deployment
+
+The `main` branch is automatically built with `pnpm build` and deployed to
+Cloudflare Pages at [bee1an.com](https://bee1an.com).
+
 ## License
 
 [MIT](./LICENSE)

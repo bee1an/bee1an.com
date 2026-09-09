@@ -18,6 +18,11 @@ pnpm typecheck
 pnpm test
 ```
 
+## 部署
+
+`main` 分支会通过 `pnpm build` 自动构建，并部署到 Cloudflare Pages：
+[bee1an.com](https://bee1an.com)。
+
 ## 许可证
 
 [MIT](./LICENSE)
